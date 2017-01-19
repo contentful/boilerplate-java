@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.contentful.java:java-sdk:7.3.0'
+}
+
+mainClassName = 'com.contentful.hello.Main'
+
