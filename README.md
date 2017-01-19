@@ -1,2 +1,3 @@
-# contentful.java-hello-world
-Sample App getting you started with a hello world style app.
+# Hello World, Contentful Style
+
+This is a sample app, showing basic functionality on how to use Contentful with a Java Application.
