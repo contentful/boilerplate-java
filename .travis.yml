@@ -11,5 +11,5 @@ jdk:
 
 before_install:
   - echo java -version
-  - jdk_switcher ; [[ "$?" -eq 127 ]] && alias jdk_switcher=echo
+  - which jdk_switcher || alias jdk_switcher='echo disabled_jdk_switcher'
 
