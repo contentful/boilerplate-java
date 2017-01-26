@@ -9,13 +9,6 @@ jdk:
   - openjdk7
   - oraclejdk8
 
-matrix:
-  exclude:
-    -os: osx
-     jdk: openjdk7
-    -os: osx
-     jdk: oraclejdk7
-
 before_install:
   - echo java -version
   - jdk_switcher ; [[ "$?" -eq 127 ]] && alias jdk_switcher=echo
