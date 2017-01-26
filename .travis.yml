@@ -11,7 +11,7 @@ matrix:
 
 language: java
 
-before_install:
-  - echo java -version
-  - which jdk_switcher || alias jdk_switcher='echo disabled_jdk_switcher'
+script:
+  - ./gradlew run
+
 
