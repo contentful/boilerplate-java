@@ -8,12 +8,11 @@ Creating the Contentful SDK, requesting all entries from Contentful, filtering s
 
 # Downloading and using the App
 
-If you want to download the app, please hit the little clone button next to this repository, or clone it using the following:
+If you want to download the source code of the application, please hit the little clone button next to this repository, or clone it using the following command line:
 
 ```
 git clone git@github.com:contentful/contentful.java-hello-world
 ```
-
 Once you have downloaded it, please feel free to run it using
 
 ```
