@@ -1,0 +1,15 @@
+version: 1.0.{build}
+build_script:
+- cmd: >-
+    echo windows
+
+    ver
+
+    gradlew.bat run
+deploy: off
+notifications:
+- provider: Slack
+  incoming_webhook: https://hooks.slack.com/services/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
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
