@@ -1,3 +1,5 @@
+[![appveyor build status](https://ci.appveyor.com/api/projects/status/yvnq0019ll053ydg?svg=true)](https://ci.appveyor.com/project/mariobodemann/boilerplate-java)[![travis status](https://travis-ci.com/contentful/boilerplate-java.svg?token=rXqy8QBu9MmE9B9fQ48r&branch=master)](https://travis-ci.com/contentful/boilerplate-java)
+
 # Hello World, Contentful Style
 
 This is a sample App, showing basic functionality on how to use Contentful with a Java Application.
