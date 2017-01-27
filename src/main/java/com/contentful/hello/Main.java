@@ -32,7 +32,7 @@ public class Main {
    *
    * @see <a href="http://app.contentful.com">WebApp</a>
    */
-  private static final String CDA_TOKEN = null;
+  private static final String CDA_TOKEN = "297e67b247c1a77c1a23bb33bf4c32b81500519edd767a8384a4b8f8803fb971";
 
   /**
    * Space <b>id</b>entifier.
@@ -42,7 +42,7 @@ public class Main {
    *
    * @see <a href="http://app.contentful.com">WebApp</a>
    */
-  private static final String SPACE_ID = null;
+  private static final String SPACE_ID = "71rop70dkqaj";
 
 
   /**
